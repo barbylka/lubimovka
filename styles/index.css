@@ -1,2 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/section-title/section-title.css);
+
+/* photos */
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__grid/photos__grid.css);
+@import url(../blocks/photos/__photo/photos__photo.css);
+@import url(../blocks/photos/__image/photos__image.css);

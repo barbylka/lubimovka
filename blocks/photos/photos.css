@@ -1,0 +1,13 @@
+.photos {
+  background: transparent;
+  width: 100%;
+  padding: 0 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1025px) {
+  .photos {
+    padding: 0 0 145px;
+  }
+}
