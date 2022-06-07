@@ -3,8 +3,9 @@
   margin: 0;
   padding: 22px 0 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(206px, 1fr));
-  gap: 2px;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  column-gap: 3px;
+  row-gap: 2px;
 }
 
 @media screen and (min-width: 1025px) {
