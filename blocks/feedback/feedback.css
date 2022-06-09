@@ -1,0 +1,14 @@
+.feedback {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 718px) {
+  .feedback {
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+}
