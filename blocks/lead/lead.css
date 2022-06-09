@@ -1,0 +1,9 @@
+.lead {
+  display: grid;
+}
+
+@media screen and (min-width: 1440px) {
+  .lead {
+    grid-template-columns: 1fr 720px;
+  }
+}

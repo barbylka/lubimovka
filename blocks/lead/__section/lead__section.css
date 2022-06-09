@@ -1,0 +1,9 @@
+.lead__section {
+  padding: 0 24px 38px;
+}
+
+@media screen and (min-width: 1440px) {
+  .lead__section {
+    padding: 62px 0 0 120px;
+  }
+}
