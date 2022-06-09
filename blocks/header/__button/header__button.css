@@ -1,0 +1,6 @@
+.header__button {
+  padding: 0;
+  border: none solid solid none;
+  cursor: pointer;
+  transition: opacity .1s;
+}
