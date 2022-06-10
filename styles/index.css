@@ -27,7 +27,7 @@
 @import url(../blocks/photos/__photo/photos__photo.css);
 @import url(../blocks/photos/__image/photos__image.css);
 
-/* slider-arrows */
+/* slider-buttons */
 @import url(../blocks/slider-buttons/slider-buttons.css);
 @import url(../blocks/slider-buttons/__prev/slider-buttons__prev.css);
 @import url(../blocks/slider-buttons/__next/slider-buttons__next.css);

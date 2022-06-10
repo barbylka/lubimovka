@@ -5,7 +5,6 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  align-self: center;
 }
 
 @media screen and (min-width: 718px) {
