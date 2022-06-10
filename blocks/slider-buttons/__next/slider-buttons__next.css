@@ -1,0 +1,8 @@
+.slider-buttons__next {
+  width: 50px;
+  height: 50px;
+}
+
+.slider-buttons__next:hover {
+  cursor: pointer;
+}

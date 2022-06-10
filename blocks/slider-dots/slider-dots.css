@@ -1,0 +1,14 @@
+.slider-dots {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 74px;
+  height: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 3px;
+}

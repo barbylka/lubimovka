@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" tent="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
     <title>Lubimovka</title>
@@ -39,7 +39,7 @@
         <section class="about"></section>
 
         <section class="photos">
-          <h2 class="section-title">Заголовок блока с фотографиями</h2>
+          <h2 class="section-title photos__section-title">Заголовок блока с фотографиями</h2>
           <ul class="photos__grid">
             <li class="photos__photo">
               <img
@@ -102,7 +102,42 @@
 
         <section class="reviews"></section>
 
-        <section class="feedback"></section>
+        <section class="feedback">
+          <div class="feedback__header">
+            <h2 class="section-title feedback__section-title">Отзывы зрителей</h2>
+            <ul class="slider-buttons">
+              <li>
+                <img
+                  src="./images/reviews/slider-arrow-left.png"
+                  alt="Предыдущий отзыв"
+                  class="slider-buttons__prev slider-buttons_disable"
+                />
+              </li>
+              <li>
+                <img
+                  src="./images/reviews/slider-arrow-right.png"
+                  alt="Следующий отзыв"
+                  class="slider-buttons__next"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <article class="feedback__article" aria-label="Отзыв зрителя">
+            <ul class="slider-dots">
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+            </ul>
+            <p class="feedback__text">
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
+              возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
+              мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+            </p>
+            <p class="feedback__author">Наталья Зайцева</p>
+          </article>
+        </section>
 
         <section class="share"></section>
       </main>

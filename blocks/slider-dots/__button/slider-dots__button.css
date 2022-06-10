@@ -1,0 +1,14 @@
+.slider-dots__button {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid #242424;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.slider-dots__button:hover {
+  outline: 1px solid #242424;
+  background-color: #242424;
+  cursor: pointer;
+}

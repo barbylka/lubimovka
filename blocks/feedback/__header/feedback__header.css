@@ -1,0 +1,14 @@
+.feedback__header {
+  max-width: 718px;
+  width: 100%;
+  padding: 0 26px 24px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 718px) {
+  .feedback__header {
+    padding: 0 0 55px;
+  }
+}
