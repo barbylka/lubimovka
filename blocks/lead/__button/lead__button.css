@@ -1,5 +1,11 @@
 .lead__button {
-  margin-left: 62px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .lead__button {
+    margin-left: 62px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
