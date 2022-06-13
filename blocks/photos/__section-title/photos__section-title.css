@@ -1,0 +1,11 @@
+.photos__section-title {
+  padding: 0 24px;
+  max-width: 242px;
+}
+
+@media screen and (min-width: 830px) {
+  .photos__section-title {
+    max-width: 352px;
+    padding: 0 0 0 25%;
+  }
+}

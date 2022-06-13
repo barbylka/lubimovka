@@ -1,0 +1,9 @@
+.slider-buttons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+
+  display: flex;
+  gap: 20px;
+}

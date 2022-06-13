@@ -1,0 +1,7 @@
+.slider-buttons_disable {
+  opacity: 0.4;
+}
+
+.slider-buttons_disable:hover {
+  cursor: default;
+}
