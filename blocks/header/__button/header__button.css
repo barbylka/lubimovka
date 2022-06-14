@@ -1,9 +1,11 @@
 .header__button {
-  margin-left: 19px;
+  width: 115px;
+  height: 32px;
+  margin-left: 20px;
+  padding: 9px 25px 9px 10px ;
   background-color: #E5E5E5;
-  border-right: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-  padding: 9px 0 9px 10px;
+  border-left: none;
+  border-top: none;
   font-family: "Formular", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;

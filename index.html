@@ -5,77 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
-    <title>Lubimovka</title>  
-  </head>
-
-  <body class="body">
-    <header class="header">
-      <div class="header__container">
-        <
-          src="/images/header/logo.svg"
-          alt="Логотип 'Любимовка'"
-          class="logo"
-        />
-
-        <button class="header__button" type="button">
-          ПРОЕКТЫ 
-          <img src="./images/lead/arrow-right.svg" alt="Иконка кнопки" class="button__icon" />
-        </button>
-      </div>
-
-      <button class="burger-menu" type="button"></button>
-    </header>
-
-    <main class="main">
-      <section class="lead"></section>
-
-      <section class="about"></section>
-
-      <section class="photos"></section>
-
-      <section class="reviews"></section>
-
-      <section class="feedback"></section>
-
-      <section class="share"></section>
-    </main>
-
-    <footer class="footer"></footer>
     <title>Lubimovka</title>
   </head>
 
   <body class="body">
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <div class="header__container">
+          <a href="#">
+            <img
+              src="/images/header/logo.svg"
+              alt="Логотип 'Любимовка'"
+              class="logo"
+            />
+          </a>
+
+          <button class="button header__button" type="button">
+            ПРОЕКТЫ
+            <img
+              src="./images/header/arrow-left.svg"
+              alt="Иконка кнопки"
+              class="button__icon header__button-icon"
+            />
+          </button>
+        </div>
+
+        <nav class="top-nav">
+          <ul class="top-nav__items">
+            <li class="top-nav__item">
+              <a href="#" class="top-nav__link">Services</a>
+            </li>
+            <li class="top-nav__item">
+              <a href="#" class="top-nav__link">Blog</a>
+            </li>
+            <li class="top-nav__item">
+              <a href="#" class="top-nav__link">About</a>
+            </li>
+            <li class="top-nav__item">
+              <a href="#" class="top-nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <button class="hamburger" type="button">
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+          </button>
+        </nav>
+      </header>
 
       <main class="main">
         <section class="lead">
           <div class="lead__section">
             <h1 class="lead__title">С_училища</h1>
             <p class="lead__info">
-              Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни преподавателя
-              философии.
+              Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в
+              жизни преподавателя философии.
             </p>
             <p class="lead__date">12 мая 20:00</p>
             <button class="button lead__button">
               Билеты
-              <img src="./images/lead/arrow-right.svg" alt="Иконка кнопки" class="button__icon" />
+              <img
+                src="./images/lead/arrow-right.svg"
+                alt="Иконка кнопки"
+                class="button__icon"
+              />
             </button>
           </div>
 
-          <img src="./images/lead/lead720.png" alt="Фото актрисы" class="lead__image" />
+          <img
+            src="./images/lead/lead720.png"
+            alt="Фото актрисы"
+            class="lead__image"
+          />
 
           <p class="lead__caption">
-            Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017,
-            Варочный Цех предоставил грант на постановку, а Московский драматический театр имени
-            А.С. Пушкина принял спектакль в репертуар.
+            Семён Серзин сделал читку этой пьесы в рамках основной программы
+            Любимовки-2017, Варочный Цех предоставил грант на постановку, а
+            Московский драматический театр имени А.С. Пушкина принял спектакль в
+            репертуар.
           </p>
         </section>
 
         <section class="about"></section>
 
         <section class="photos">
-          <h2 class="section-title photos__section-title">Заголовок блока с фотографиями</h2>
+          <h2 class="section-title photos__section-title">
+            Заголовок блока с фотографиями
+          </h2>
           <ul class="photos__grid">
             <li class="photos__photo">
               <img
@@ -140,7 +157,9 @@
 
         <section class="feedback">
           <div class="feedback__header">
-            <h2 class="section-title feedback__section-title">Отзывы зрителей</h2>
+            <h2 class="section-title feedback__section-title">
+              Отзывы зрителей
+            </h2>
             <ul class="slider-buttons">
               <li>
                 <img
@@ -167,9 +186,10 @@
               <li class="slider-dots__button"></li>
             </ul>
             <p class="feedback__text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
-              возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
-              мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про
+              коня Боджэка возникает — я думаю, и пьеса написана с этой
+              интонацией американских взрослых мультсериалов. И как хорошо все
+              это с куклой-носочком. Так все чисто сделано!
             </p>
             <p class="feedback__author">Наталья Зайцева</p>
           </article>
