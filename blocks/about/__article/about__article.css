@@ -1,0 +1,15 @@
+.about__article {
+	padding: 24px 24px 100px;
+}
+
+@media screen and (min-width: 769px) {
+	.about__article {
+		padding: 0 30px 0 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.about__article {
+		margin-bottom: 80px;
+	}
+}
