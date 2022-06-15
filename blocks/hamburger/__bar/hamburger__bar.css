@@ -1,9 +1,8 @@
 .hamburger__bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
+  width: 20px;
+  height: 2px;
+  margin: 4px auto;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #fff;
 }

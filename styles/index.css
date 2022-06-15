@@ -15,13 +15,13 @@
 
 /* top-nav */
 @import url(../blocks/top-nav/top-nav.css);
-@import url(../blocks/top-nav/__items/top-nav__items.css);
+@import url(../blocks/top-nav/__menu/top-nav__menu.css);
 @import url(../blocks/top-nav/__item/top-nav__item.css);
 @import url(../blocks/top-nav/__link/top-nav__link.css);
 
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);
-@import url(../blocks/__bar/hamburger__bar.css);
+@import url(../blocks/hamburger/__bar/hamburger__bar.css);
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);

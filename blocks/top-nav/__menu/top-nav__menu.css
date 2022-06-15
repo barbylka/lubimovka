@@ -1,0 +1,27 @@
+.top-nav__menu {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ecebe8;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.top-nav__menu.opened {
+  display: flex;
+}
+
+@media screen and (min-width: 769px) {
+  .top-nav__menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+}
