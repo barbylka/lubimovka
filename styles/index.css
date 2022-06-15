@@ -15,9 +15,15 @@
 
 /* top-nav */
 @import url(../blocks/top-nav/top-nav.css);
+@import url(../blocks/top-nav/__logo/top-nav__logo.css);
 @import url(../blocks/top-nav/__menu/top-nav__menu.css);
+@import url(../blocks/top-nav/__items/top-nav__items.css);
 @import url(../blocks/top-nav/__item/top-nav__item.css);
 @import url(../blocks/top-nav/__link/top-nav__link.css);
+@import url(../blocks/top-nav/__buttons/top-nav__buttons.css);
+@import url(../blocks/top-nav/__button/top-nav__button.css);
+@import url(../blocks/top-nav/__socials/top-nav__socials.css);
+@import url(../blocks/top-nav/__social/top-nav__social.css);
 
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);

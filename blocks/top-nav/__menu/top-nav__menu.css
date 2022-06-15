@@ -1,15 +1,15 @@
 .top-nav__menu {
   margin: 0;
-  padding: 0;
+  padding-top: 48px;
   width: 100vw;
   height: 100vh;
   display: none;
   flex-direction: column;
-  text-align: center;
   background-color: #ecebe8;
   position: fixed;
   top: 0;
   left: 0;
+  overflow-y: auto;
 }
 
 .top-nav__menu.opened {
@@ -22,6 +22,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
 }
