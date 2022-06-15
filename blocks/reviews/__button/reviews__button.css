@@ -1,0 +1,30 @@
+.reviews__button {
+  width: 210px;
+  height: 32px;
+
+  margin: 32px 0 0 0;
+  padding: 8px 0 9px 29px;
+
+  border-right: none;
+  border-top: none;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.reviews__button::before {
+  content: '';
+  position: absolute;
+
+  width: 25px;
+  height: 25px;
+  bottom: 4px;
+  left: 0;
+
+  background-image: url(../../../images/reviews/arrow-right-up.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -100,22 +100,84 @@
           </ul>
         </section>
 
-        <section class="reviews"></section>
+        <section class="reviews">
+          <div class="reviews__header">
+            <h2 class="section-title reviews__section-title">Рецензии</h2>
 
-        <section class="feedback">
-          <div class="feedback__header">
-            <h2 class="section-title feedback__section-title">Отзывы зрителей</h2>
+            <ul class="slider-dots">
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+            </ul>
+
             <ul class="slider-buttons">
               <li>
                 <img
-                  src="./images/reviews/slider-arrow-left.png"
+                  src="./images/slider-buttons/slider-arrow-left.png"
                   alt="Предыдущий отзыв"
                   class="slider-buttons__prev slider-buttons_disable"
                 />
               </li>
               <li>
                 <img
-                  src="./images/reviews/slider-arrow-right.png"
+                  src="./images/slider-buttons/slider-arrow-right.png"
+                  alt="Следующий отзыв"
+                  class="slider-buttons__next"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <article class="reviews__article" aria-label="Рецензия">
+            <img
+              src="./images/reviews/The-New-York-Times.png"
+              alt="Нью-Йорк таймс"
+              class="reviews__article-title"
+            />
+
+            <p class="reviews__article-text">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+              Техасе, где мать главного героя с группой добровольцев готовит кукольное
+              представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
+              сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и
+              всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука
+              одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако
+              «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
+              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека
+              ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные
+              — которые притаились в каждом из нас».
+            </p>
+
+            <a href="https://www.nytimes.com/" class="button-small reviews__button">
+              Читать полностью
+            </a>
+          </article>
+        </section>
+
+        <section class="feedback">
+          <div class="feedback__header">
+            <h2 class="section-title feedback__section-title">Отзывы зрителей</h2>
+
+            <ul class="slider-dots">
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+              <li class="slider-dots__button"></li>
+            </ul>
+
+            <ul class="slider-buttons">
+              <li>
+                <img
+                  src="./images/slider-buttons/slider-arrow-left.png"
+                  alt="Предыдущий отзыв"
+                  class="slider-buttons__prev slider-buttons_disable"
+                />
+              </li>
+              <li>
+                <img
+                  src="./images/slider-buttons/slider-arrow-right.png"
                   alt="Следующий отзыв"
                   class="slider-buttons__next"
                 />
@@ -124,18 +186,12 @@
           </div>
 
           <article class="feedback__article" aria-label="Отзыв зрителя">
-            <ul class="slider-dots">
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-            </ul>
-            <p class="feedback__text">
+            <p class="feedback__article-text">
               Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
               возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
               мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
             </p>
-            <p class="feedback__author">Наталья Зайцева</p>
+            <p class="feedback__article-author">Наталья Зайцева</p>
           </article>
         </section>
 

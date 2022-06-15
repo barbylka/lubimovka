@@ -1,0 +1,18 @@
+.reviews__header {
+  max-width: 718px;
+  width: 100%;
+  padding: 0 25px 24px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__header {
+    padding: 0 0 35px;
+  }
+}
