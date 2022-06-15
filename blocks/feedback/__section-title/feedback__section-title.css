@@ -1,10 +1,13 @@
 .feedback__section-title {
-  max-width: 140px;
+  width: 140px;
 }
 
-@media screen and (min-width: 718px) {
+@media screen and (min-width: 768px) {
   .feedback__section-title {
-    margin-top: 5px;
-    max-width: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
