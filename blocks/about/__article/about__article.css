@@ -7,9 +7,3 @@
 		padding: 0 30px 0 0;
 	}
 }
-
-@media screen and (min-width: 1440px) {
-	.about__article {
-		margin-bottom: 80px;
-	}
-}
