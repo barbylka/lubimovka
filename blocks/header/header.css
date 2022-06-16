@@ -1,7 +1,15 @@
 .header {
   padding: 32px 0 0 24px;
-  background-color: #e5e5e5;
+  max-width: 100vw;
+  background-color: #ecebe8;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    padding-top: 15px;
+    height: 61px;
+    border-bottom: 1px solid #242424;
+  }
 }

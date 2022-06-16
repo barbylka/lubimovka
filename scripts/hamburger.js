@@ -1,6 +1,6 @@
 const hamburgerButton = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".top-nav__menu");
-const navLink = document.querySelectorAll(".top-nav__item");
+const navMenu = document.querySelector(".topnav__menu");
+const navLink = document.querySelectorAll(".topnav__item");
 
 function toggleNavMenu() {
   hamburgerButton.classList.toggle("opened");

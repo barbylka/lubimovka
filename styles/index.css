@@ -13,17 +13,19 @@
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button-icon/header__button-icon.css);
 
-/* top-nav */
-@import url(../blocks/top-nav/top-nav.css);
-@import url(../blocks/top-nav/__logo/top-nav__logo.css);
-@import url(../blocks/top-nav/__menu/top-nav__menu.css);
-@import url(../blocks/top-nav/__items/top-nav__items.css);
-@import url(../blocks/top-nav/__item/top-nav__item.css);
-@import url(../blocks/top-nav/__link/top-nav__link.css);
-@import url(../blocks/top-nav/__buttons/top-nav__buttons.css);
-@import url(../blocks/top-nav/__button/top-nav__button.css);
-@import url(../blocks/top-nav/__socials/top-nav__socials.css);
-@import url(../blocks/top-nav/__social/top-nav__social.css);
+/* topnav */
+@import url(../blocks/topnav/topnav.css);
+@import url(../blocks/topnav/__logo/topnav__logo.css);
+@import url(../blocks/topnav/__menu/topnav__menu.css);
+@import url(../blocks/topnav/__items/topnav__items.css);
+@import url(../blocks/topnav/__item/topnav__item.css);
+@import url(../blocks/topnav/__link/topnav__link.css);
+@import url(../blocks/topnav/__buttons/topnav__buttons.css);
+@import url(../blocks/topnav/__button/topnav__button.css);
+@import url(../blocks/topnav/__socials/topnav__socials.css);
+@import url(../blocks/topnav/__social/topnav__social.css);
+
+@import url(../blocks/menu-footer/menu-footer.css);
 
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);

@@ -1,0 +1,33 @@
+.topnav__socials {
+  padding-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topnav__socials .topnav__button:first-child {
+  width: 100%;
+}
+
+.topnav__socials .topnav__button:not(:first-child) {
+  width: 50%;
+}
+
+.topnav__socials .topnav__button:first-child .topnav__button:nth-child(2n) {
+  border-left: none;
+}
+
+@media screen and (min-width: 769px) {
+  .topnav__socials {
+    padding: 0 26px 0 24px;
+    min-width: max-content;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid #242424;
+    border-right: 1px solid #242424;
+  }
+
+  .topnav__socials .topnav__button {
+    max-width: max-content;
+    border: none;
+  }
+}

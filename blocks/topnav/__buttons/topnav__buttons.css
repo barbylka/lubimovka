@@ -1,0 +1,21 @@
+.topnav__buttons {
+  padding: 69.5px 0 0 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.topnav__buttons .topnav__button:first-child {
+  border-bottom: none;
+}
+
+.topnav__buttons .topnav__button {
+  min-width: 361px;
+  min-height: 56px;
+}
+
+@media screen and (min-width: 769px) {
+  .topnav__buttons {
+    display: none;
+  }
+}
