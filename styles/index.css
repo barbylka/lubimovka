@@ -24,7 +24,6 @@
 @import url(../blocks/topnav/__button/topnav__button.css);
 @import url(../blocks/topnav/__socials/topnav__socials.css);
 @import url(../blocks/topnav/__social/topnav__social.css);
-
 @import url(../blocks/menu-footer/menu-footer.css);
 
 /* burger */
@@ -37,7 +36,7 @@
 /* section-title */
 @import url(../blocks/section-title/section-title.css);
 
-/* section-title */
+/* text */
 @import url(../blocks/text/text.css);
 
 /* lead */
