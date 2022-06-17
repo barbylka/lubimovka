@@ -1,0 +1,22 @@
+.topnav__social {
+  display: flex;
+  flex-flow: row;
+}
+
+@media screen and (min-width: 769px) {
+  #ytube {
+    order: 5;
+  }
+  #fb {
+    order: 2;
+  }
+  #inst {
+    order: 3;
+  }
+  #vk {
+    order: 4;
+  }
+  #tlgrm {
+    order: 1;
+  }
+}
