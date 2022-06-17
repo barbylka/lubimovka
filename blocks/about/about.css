@@ -1,0 +1,14 @@
+.about {
+  display: grid;
+  box-sizing: content-box;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 769px) {
+  .about {
+    grid-template-columns: minmax(300px, 1fr) minmax(375px, 721px);
+    column-gap: 90px;
+    row-gap: 80px;
+    padding-bottom: 144px;
+  }
+}

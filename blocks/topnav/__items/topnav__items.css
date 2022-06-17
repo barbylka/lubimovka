@@ -1,0 +1,15 @@
+.topnav__items {
+  margin: 0;
+  padding: 0 0 0 58px;
+  text-align: left;
+}
+
+@media screen and (min-width: 769px) {
+  .topnav__items {
+    width: 100%;
+    padding: 0 39px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
