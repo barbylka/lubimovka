@@ -6,6 +6,9 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__icon/button__icon.css);
 
+/* button-small */
+@import url(../blocks/button-small/button-small.css);
+
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -87,11 +90,23 @@
 @import url(../blocks/slider-dots/__button/slider-dots__button.css);
 @import url(../blocks/slider-dots/__button/_active/slider-dots__button_active.css);
 
+/* reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__header/reviews__header.css);
+@import url(../blocks/reviews/__section-title/reviews__section-title.css);
+@import url(../blocks/reviews/__article/reviews__article.css);
+@import url(../blocks/reviews/__article-title/reviews__article-title.css);
+@import url(../blocks/reviews/__article-text/reviews__article-text.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
+
 /* feedback */
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__header/feedback__header.css);
 @import url(../blocks/feedback/__section-title/feedback__section-title.css);
 @import url(../blocks/feedback/__article/feedback__article.css);
+
+@import url(../blocks/feedback/__article-text/feedback__article-text.css);
+@import url(../blocks/feedback/__article-author/feedback__article-author.css);
 
 @import url(../blocks/feedback/__article-text/feedback__article-text.css);
 @import url(../blocks/feedback/__article-author/feedback__article-author.css);
