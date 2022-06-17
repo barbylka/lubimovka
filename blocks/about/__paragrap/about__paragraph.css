@@ -1,0 +1,17 @@
+.about__paragraph {
+  margin: 0;
+}
+
+.about__paragraph:not(:first-of-type) {
+  text-indent: 55px;
+}
+
+.about__paragraph:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+@media screen and (min-width: 769px) {
+  .about__paragraph {
+    max-width: 602px;
+  }
+}
