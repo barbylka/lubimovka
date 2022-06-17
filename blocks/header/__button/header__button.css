@@ -1,0 +1,19 @@
+.header__button {
+  width: 115px;
+  height: 32px;
+  margin-left: 20px;
+  padding: 9px 25px 9px 10px ;
+  background-color: #E5E5E5;
+  border-left: none;
+  border-top: none;
+  font-family: "Formular", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+@media screen and (min-width: 769px) {
+  .header__button {
+    display: none;
+  }
+}
