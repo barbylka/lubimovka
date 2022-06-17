@@ -1,0 +1,7 @@
+.text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  font-feature-settings: 'ss01' on;
+  letter-spacing: -1px;
+}

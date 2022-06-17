@@ -1,0 +1,12 @@
+.about__piece {
+  margin: 0 auto;
+  max-width: 240px;
+}
+
+@media screen and (min-width: 769px) {
+  .about__piece {
+    margin: 0;
+    grid-row: 2;
+    grid-column: 2;
+  }
+}

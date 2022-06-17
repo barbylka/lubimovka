@@ -1,0 +1,12 @@
+.about__video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about__video-container {
+    margin-bottom: 66px;
+  }
+}
