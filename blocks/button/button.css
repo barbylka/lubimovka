@@ -1,39 +1,39 @@
 .button {
-	width: 240px;
-	height: 56px;
-	padding: 0 16px 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: transparent;
-	font-family: 'Formular', Arial, Helvetica, sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.375;
-	color: #242424;
-	text-transform: uppercase;
-	outline: none;
-	border: 1px solid #000;
-	transition: 0.2s;
+  width: 240px;
+  height: 56px;
+  padding: 0 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+  color: #242424;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid #000;
+  transition: 0.2s;
 }
 
 /* TEMPORARY SOLUTION */
 .button:hover {
-	background-color: #242424;
-	cursor: pointer;
+  background-color: #242424;
+  cursor: pointer;
 }
 
 .button:hover {
-	color: #fff;
+  color: #fff;
 }
 
 .button:hover .button__icon {
-	filter: invert(100%) sepia(64%) saturate(6%) hue-rotate(125deg) brightness(103%) contrast(101%);
+  filter: invert(100%) sepia(64%) saturate(6%) hue-rotate(125deg) brightness(103%) contrast(101%);
 }
 
 .button:focus {
 }
 
 .button:active {
-	outline: 3px solid #242424;
+  outline: 3px solid #242424;
 }
