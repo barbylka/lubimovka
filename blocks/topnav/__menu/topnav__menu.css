@@ -2,7 +2,7 @@
   margin: 0;
   padding-top: 48px;
   max-width: 1334px;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: none;
   flex-direction: column;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 769px) {
   .topnav__menu {
-    padding:  0 0 0 43px;
+    padding:  0 0 0 30px;
     height: 61px;
     position: relative;
     display: flex;

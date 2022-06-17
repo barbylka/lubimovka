@@ -3,3 +3,12 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+  .header__container .header__button-icon:first-child {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+  }
+}

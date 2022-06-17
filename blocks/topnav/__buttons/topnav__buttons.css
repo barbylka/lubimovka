@@ -14,8 +14,27 @@
   min-height: 56px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .topnav__buttons {
+    padding: 0;
+  }
+
+  .topnav__buttons .topnav__button:not(:nth-child(2)) {
     display: none;
+  }
+
+  .topnav__buttons .topnav__button:nth-child(2) {
+    background-color: cyan;
+    padding: 18px 20px 18px 17px;
+    min-width: max-content;
+    max-width: 164px;
+    border-top: none;
+    border-bottom: none;
+    justify-content:end;
+    align-items: center;
+  }
+  
+  .topnav__buttons .topnav__button:nth-child(2)::before {
+    content: url('../../../images/header/plus.svg');
   }
 }

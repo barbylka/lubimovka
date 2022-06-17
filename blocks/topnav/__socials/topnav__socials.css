@@ -16,12 +16,16 @@
   border-left: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .topnav__socials {
     padding: 0 26px 0 24px;
     min-width: max-content;
+    max-width: calc(257px - 50px);
+    width: 100%;
+    pointer-events: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-left: 1px solid #242424;
     border-right: 1px solid #242424;
   }
@@ -29,5 +33,21 @@
   .topnav__socials .topnav__button {
     max-width: max-content;
     border: none;
+  }
+
+  #ytube {
+    order: 5;
+  }
+  #fb {
+    order: 2;
+  }
+  #inst {
+    order: 3;
+  }
+  #vk {
+    order: 4;
+  }
+  #tlgrm {
+    order: 1;
   }
 }
