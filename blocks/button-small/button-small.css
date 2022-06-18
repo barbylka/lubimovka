@@ -1,0 +1,42 @@
+.button-small {
+  border: 1px solid #242424;
+  color: #242424;
+  text-decoration: none;
+
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button-small::after {
+  position: absolute;
+  content: '';
+
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #242424;
+
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.button-small:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.button-small:hover::after {
+  left: 0;
+}
+
+.button-small:hover::before {
+  filter: brightness(1000%);
+}
+
+.button-small:active {
+  outline: 4px solid #242424;
+}
