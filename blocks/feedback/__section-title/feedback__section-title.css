@@ -5,9 +5,5 @@
 @media screen and (min-width: 768px) {
   .feedback__section-title {
     width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 }
