@@ -12,25 +12,29 @@
     <div class="page">
       <header class="header">
         <div class="header__container">
-          <button class="button header__button" type="button">
+          <img
+            class="logo header__logo"
+            src="/images/header/logo.svg"
+            alt="Логотип 'Любимовка'"
+          />
+          <a href="#" class="button header__button" type="button">
             ПРОЕКТЫ
             <img
               src="./images/header/arrow-left.svg"
               alt="Иконка кнопки"
-              class="button__icon header__button-icon"
+              class="button__icon"
             />
-          </button>
+          </a>
         </div>
 
         <nav class="topnav">
           <div class="topnav__menu">
             <img
+              class="logo topnav__logo"
               src="/images/header/logo.svg"
               alt="Логотип 'Любимовка'"
-              class="logo topnav__logo"
             />
 
-            <div class="topnav__bar"></div>
             <ul class="topnav__items">
               <li class="topnav__item">
                 <a href="#" class="topnav__link">Главная</a>
@@ -64,83 +68,81 @@
               </li>
             </ul>
 
-            <section class="topnav__buttons">
-              <button class="button topnav__button" type="button">
-                ПОДАТЬ ПЬЕСУ
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-              <button class="button topnav__button" type="button">
-                ПОДДЕРЖАТЬ
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-            </section>
+            <ul class="topnav__buttons">
+              <li class="button topnav__button">
+                <a href="#" class="topnav__button-link">
+                  ПОДАТЬ ПЬЕСУ
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon topnav__button-icon"
+                  />
+                </a>
+              </li>
+              <li class="button topnav__button">
+                <a href="#" class="topnav__button-link">
+                  ПОДДЕРЖАТЬ
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+            </ul>
 
-            <section class="topnav__socials">
-              <button id="ytube" class="button topnav__button">
-                ytube
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-              <button id="fb" class="button topnav__button">
-                fb
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-              <button id="inst" class="button topnav__button">
-                inst
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-              <button id="vk" class="button topnav__button">
-                vk
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-              <button id="tlgrm" class="button topnav__button">
-                tlgrm
-                <img
-                  src="./images/header/arrow-right.svg"
-                  alt="Иконка кнопки"
-                  class="button__icon header__button-icon"
-                />
-              </button>
-            </section>
-
-            <section class="menu-footer">
-              <p class="menu-footer__copyright">© Любимовка, 2021</p>
-              <p class="menu-footer__politics">Политика конфиденциальности</p>
-
-              <div class="menu-footer__design">
-                <img src="" alt="" class="menu-footer__design-logo" />
-                <p class="menu-footer__design-name">
-                  дизайн сайта — shishki.collective
-                </p>
-              </div>
-
-              <p class="menu-footer__creators">
-                вёрстка и разработака — студенты Яндекс.Практикума
-              </p>
-            </section>
+            <ul class="topnav__socials">
+              <li class="button topnav__social">
+                <a href="#" id="ytube" class="topnav__button-link">
+                  ytube
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+              <li class="button topnav__social">
+                <a href="#" id="fb" class="topnav__button-link">
+                  fb
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+              <li class="button topnav__social">
+                <a href="#" id="inst" class="topnav__button-link">
+                  inst
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+              <li class="button topnav__social">
+                <a href="#" id="vk" class="topnav__button-link">
+                  vk
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+              <li class="button topnav__social">
+                <a href="#" id="tlgrm" class="topnav__button-link">
+                  tlgrm
+                  <img
+                    src="./images/header/arrow-right.svg"
+                    alt="Иконка кнопки"
+                    class="button__icon"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
 
           <button class="hamburger" type="button">
@@ -459,7 +461,21 @@
         <section class="share"></section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <p class="menu-footer__copyright">© Любимовка, 2021</p>
+        <p class="menu-footer__politics">Политика конфиденциальности</p>
+
+        <div class="menu-footer__design">
+          <img src="" alt="" class="menu-footer__design-logo" />
+          <p class="menu-footer__design-name">
+            дизайн сайта — shishki.collective
+          </p>
+        </div>
+
+        <p class="menu-footer__creators">
+          вёрстка и разработака — студенты Яндекс.Практикума
+        </p>
+      </footer>
     </div>
 
     <script src="./scripts/hamburger.js" defer></script>

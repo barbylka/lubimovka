@@ -1,13 +1,10 @@
 .topnav__menu {
-  margin: 0;
   padding-top: 48px;
-  max-width: 1334px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: none;
   flex-direction: column;
   background-color: #ecebe8;
-  border-bottom: 1px solid #242424;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,13 +15,18 @@
   display: flex;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .topnav__menu {
-    padding:  0 0 0 30px;
+    padding: 0 0 0 30px;
     height: 61px;
+    width: 100vw;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .topnav__menu .button__icon {
+    display: none;
   }
 }

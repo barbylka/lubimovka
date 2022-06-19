@@ -1,16 +1,16 @@
 .topnav__items {
   margin: 0;
-  padding: 0 0 0 58px;
-  text-align: left;
+  padding-left: 58px;
 }
 
 @media screen and (min-width: 768px) {
   .topnav__items {
     padding: 0 39px 0 33px;
-    max-width: calc(913px - 72px);
     width: 100%;
+    min-width: max-content;
+    max-width: calc(944px - 72px);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    order: 2;
   }
 }

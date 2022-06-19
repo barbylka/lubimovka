@@ -1,7 +1,13 @@
 .topnav__button {
-  padding: 0 19px 0 15px;
+  
+  width: 100%;
   border-right: none;
-  text-transform: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.topnav__button:hover .topnav__button-link {
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {

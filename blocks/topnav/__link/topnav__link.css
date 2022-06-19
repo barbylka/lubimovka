@@ -1,4 +1,9 @@
 .topnav__link {
   text-decoration: none;
-  color: #242424
+  color: #242424;
+  transition: 0.2s;
+}
+
+.topnav__link:hover {
+  color: grey;
 }

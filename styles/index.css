@@ -14,7 +14,7 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__button/header__button.css);
-@import url(../blocks/header/__button-icon/header__button-icon.css);
+@import url(../blocks/header/__logo/header__logo.css);
 
 /* topnav */
 @import url(../blocks/topnav/topnav.css);
@@ -28,6 +28,7 @@
 @import url(../blocks/topnav/__socials/topnav__socials.css);
 @import url(../blocks/topnav/__social/topnav__social.css);
 @import url(../blocks/menu-footer/menu-footer.css);
+@import url(../blocks/topnav/__button-link/topnav__button-link.css);
 
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);

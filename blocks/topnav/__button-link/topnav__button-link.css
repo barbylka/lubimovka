@@ -1,0 +1,7 @@
+.topnav__button-link {
+  color: #242424;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
