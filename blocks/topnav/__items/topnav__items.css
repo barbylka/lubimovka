@@ -1,6 +1,7 @@
 .topnav__items {
   margin: 0;
   padding-left: 58px;
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,5 +13,10 @@
     display: flex;
     justify-content: space-between;
     order: 2;
+  }
+
+  .topnav__items li:first-of-type,
+  .topnav__items li:last-of-type {
+    display: none;
   }
 }

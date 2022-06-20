@@ -21,3 +21,7 @@
 7. All buttons are links?
 
 8. Check todo extension VS Code
+
+9. heart-logo or logo?
+
+Убрать размеры кнопок?
