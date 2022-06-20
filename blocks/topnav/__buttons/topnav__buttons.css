@@ -7,10 +7,11 @@
   display: flex;
   flex-direction: column;
   align-self: end;
+  list-style: none;
 }
 
-.topnav__buttons .topnav__button:first-child {
-  border-bottom: none;
+.topnav__buttons li:last-of-type .topnav__button-link {
+  border-top: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -18,21 +19,18 @@
     padding: 0;
     min-width: max-content;
     max-width: calc(164px - 37px);
+    border-left: 1px solid #242424;
     order: 4;
   }
 
-  .topnav__buttons .topnav__button:first-child {
-    display: none;
-  }
-
-  .topnav__buttons .topnav__button {
+  .topnav__buttons li:last-of-type .topnav__button-link {
     padding: 18px 20px 18px 17px;
     border-top: none;
     border-bottom: none;
   }
 
   /* TODO: animation plus.svg */
-  .topnav__buttons .topnav__button:nth-child(2)::before {
+  .topnav__buttons li:last-of-type .topnav__button-link::before {
     content: url("../../../images/header/plus.svg");
     width: 25px;
     height: 25px;

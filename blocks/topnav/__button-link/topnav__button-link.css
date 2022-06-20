@@ -1,7 +1,19 @@
 .topnav__button-link {
-  color: #242424;
-  text-decoration: none;
   width: 100%;
+  border-right: none;
   display: flex;
   justify-content: space-between;
+  color: #242424;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  .topnav__button-link {
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    line-height: 1.21;
+  }
 }
