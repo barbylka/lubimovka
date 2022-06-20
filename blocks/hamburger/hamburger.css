@@ -1,10 +1,14 @@
 .hamburger {
   width: 72px;
   height: 72px;
-  display: block;
+  /* position: relative; */
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: calc(100vw - 72px);
+  bottom: 128px;
   cursor: pointer;
   background-color: black;
-  z-index: 2;
+  z-index: 101;
 }
 
 .hamburger.opened .hamburger__bar {

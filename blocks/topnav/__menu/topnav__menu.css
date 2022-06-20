@@ -8,12 +8,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  overflow-y: auto;
+  z-index: 100;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 .topnav__menu.opened {
   display: flex;
+
+}
+
+.topnav__menu.opened::-webkit-scrollbar {
+  display: none; 
 }
 
 @media screen and (min-width: 768px) {
