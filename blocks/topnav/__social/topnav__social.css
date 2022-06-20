@@ -1,49 +1,5 @@
-.topnav__social {
-  box-sizing: border-box;
-  text-transform: lowercase;
-  border-left: none;
-  transition: 0.2s;
-  text-decoration: none;
-}
 
-.topnav__social:hover .topnav__button-link {
-  color: #fff;
-}
 
-.topnav__social:first-child {
-  width: 100%;
-}
 
-.topnav__social:not(:first-child) {
-  width: 50%;
-  border-top: none;
-}
 
-.topnav__social:nth-child(odd) {
-  border-right: none;
-}
 
-@media screen and (min-width: 768px) {
-  .topnav__social {
-    padding: 0;
-    max-width: max-content;
-    border: none;
-    font-size: 16px;
-    line-height: 1.12;
-  }
-
-  /* Temporary solution */
-  .topnav__social:hover {
-    background-color: transparent;
-  }
-
-  /* Temporary solution */
-  .topnav__social:hover .topnav__button-link {
-    color: grey;
-  }
-
-  /* Temporary solution */
-  .topnav__social:active {
-    outline: none;
-  }
-}

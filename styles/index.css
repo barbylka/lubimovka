@@ -21,13 +21,13 @@
 @import url(../blocks/topnav/__logo/topnav__logo.css);
 @import url(../blocks/topnav/__menu/topnav__menu.css);
 @import url(../blocks/topnav/__items/topnav__items.css);
-@import url(../blocks/topnav/__link/topnav__link.css);
+@import url(../blocks/topnav/__item-link/topnav__item-link.css);
 @import url(../blocks/topnav/__buttons/topnav__buttons.css);
 @import url(../blocks/topnav/__button/topnav__button.css);
 @import url(../blocks/topnav/__socials/topnav__socials.css);
 @import url(../blocks/topnav/__social/topnav__social.css);
-@import url(../blocks/menu-footer/menu-footer.css);
 @import url(../blocks/topnav/__button-link/topnav__button-link.css);
+@import url(../blocks/topnav/__social-link/topnav__social-link.css);
 
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);

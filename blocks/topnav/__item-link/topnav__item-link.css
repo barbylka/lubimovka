@@ -1,4 +1,4 @@
-.topnav__link {
+.topnav__item-link {
   padding-top: 25px;
   min-width: max-content;
   display: flex;
@@ -13,12 +13,12 @@
   transition: 0.2s;
 }
 
-.topnav__link:hover {
+.topnav__item-link:hover {
   color: grey;
 }
 
 @media screen and (min-width: 768px) {
-  .topnav__link {
+  .topnav__item-link {
     padding-top: 0;
     font-family: "Formular", Arial, Helvetica, sans-serif;
     font-weight: 300;
