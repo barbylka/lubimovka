@@ -1,0 +1,25 @@
+.share__title {
+    max-width: 250px;
+    position: relative;
+    margin-left: 26px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.share__title::after {
+    content: "о спектакле в соцсетях";
+    position: absolute;
+    top: 67px;
+    left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .share__title {
+        max-width: 800px;
+        margin-left: 25.14%;
+    }
+
+    .share__title::after {        
+        top: 40px;        
+    }
+}

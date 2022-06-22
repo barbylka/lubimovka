@@ -75,5 +75,12 @@
 @import url(../blocks/feedback/__text/feedback__text.css);
 @import url(../blocks/feedback/__author/feedback__author.css);
 
+/* share */
+@import url(../blocks/share/share.css);
+@import url(../blocks/share/__image/share__image.css);
+@import url(../blocks/share/__link/share__link.css);
+@import url(../blocks/share/__links/share__links.css);
+@import url(../blocks/share/__title/share__title.css);
+
 /*footer */
 @import url(../blocks/footer/footer.css);
