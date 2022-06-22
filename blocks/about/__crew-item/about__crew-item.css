@@ -1,0 +1,9 @@
+.about__crew-item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.about__crew-item:not(:last-child) {
+  margin-bottom: 24px;
+}

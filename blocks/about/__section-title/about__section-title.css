@@ -1,0 +1,10 @@
+.about__section-title {
+  margin-bottom: 32px;
+  padding-left: 24px;
+}
+
+@media screen and (min-width: 769px) {
+  .about__section-title {
+    display: none;
+  }
+}
