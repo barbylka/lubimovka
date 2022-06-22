@@ -1,0 +1,15 @@
+.reviews__article-text {
+  margin: 35px 0 0 0;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__article-text {
+    margin: 47px 0 0 0;
+  }
+}
