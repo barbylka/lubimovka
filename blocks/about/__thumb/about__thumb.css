@@ -1,0 +1,15 @@
+.about__thumb {
+  background-color: #b7c09d;
+  padding: 16px 0 0;
+  min-height: 341px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 769px) {
+  .about__thumb {
+    padding-top: 24px;
+    min-height: 300px;
+  }
+}
