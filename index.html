@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <title>Lubimovka</title>
   </head>
 
@@ -104,16 +105,11 @@
           <div class="reviews__header">
             <h2 class="section-title reviews__section-title">Рецензии</h2>
 
-            <ul class="slider-dots">
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-            </ul>
+            <ul class="reviews__slider-dots slider-dots"></ul>
 
             <ul class="slider-buttons">
               <li>
-                <button class="slider-buttons__prev">
+                <button class="slider-button slider-button__prev reviews__button-prev">
                   <img
                     src="./images/arrows/arrow-left.svg"
                     alt="Предыдущий отзыв"
@@ -122,7 +118,7 @@
                 </button>
               </li>
               <li>
-                <button class="slider-buttons__next">
+                <button class="slider-button slider-button__next reviews__button-next">
                   <img
                     src="./images/arrows/arrow-right.svg"
                     alt="Следующий отзыв"
@@ -133,47 +129,114 @@
             </ul>
           </div>
 
-          <article class="reviews__article" aria-label="Рецензия">
-            <img
-              src="./images/reviews/The-New-York-Times.png"
-              alt="Нью-Йорк таймс"
-              class="reviews__article-title"
-            />
+          <div class="reviews__slider">
+            <div class="reviews__wrapper">
+              <article class="reviews__article" aria-label="Рецензия">
+                <img
+                  src="./images/reviews/The-New-York-Times.png"
+                  alt="Нью-Йорк таймс"
+                  class="reviews__article-title"
+                />
 
-            <p class="reviews__article-text">
-              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
-              Техасе, где мать главного героя с группой добровольцев готовит кукольное
-              представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
-              сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
-              контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и
-              всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука
-              одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако
-              «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не
-              сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека
-              ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные
-              — которые притаились в каждом из нас».
-            </p>
+                <p class="reviews__article-text">
+                  «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                  Техасе, где мать главного героя с группой добровольцев готовит кукольное
+                  представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
+                  сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+                  контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+                  его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что
+                  рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму.
+                  Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе
+                  не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека
+                  ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные,
+                  агрессивные — которые притаились в каждом из нас».
+                </p>
 
-            <a href="https://www.nytimes.com/" class="button-small reviews__button">
-              Читать полностью
-            </a>
-          </article>
+                <a href="https://www.nytimes.com/" class="button-small reviews__button">
+                  Читать полностью
+                </a>
+              </article>
+
+              <article class="reviews__article" aria-label="Рецензия">
+                <img
+                  src="./images/reviews/spb-sobaka-ru.png"
+                  alt="Собака.ру"
+                  class="reviews__article-title"
+                />
+
+                <p class="reviews__article-text">
+                  «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                  Техасе, где мать главного героя с группой добровольцев готовит кукольное
+                  представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
+                  сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+                  контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+                  его и всех вокруг.
+                </p>
+
+                <a href="https://www.sobaka.ru/" class="button-small reviews__button">
+                  Читать полностью
+                </a>
+              </article>
+
+              <article class="reviews__article" aria-label="Рецензия">
+                <img
+                  src="./images/reviews/The-New-York-Times.png"
+                  alt="Нью-Йорк таймс"
+                  class="reviews__article-title"
+                />
+
+                <p class="reviews__article-text">
+                  «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                  Техасе, где мать главного героя с группой добровольцев готовит кукольное
+                  представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
+                  сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+                  контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+                  его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что
+                  рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму.
+                  Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе
+                  не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека
+                  ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные,
+                  агрессивные — которые притаились в каждом из нас».
+                </p>
+
+                <a href="https://www.nytimes.com/" class="button-small reviews__button">
+                  Читать полностью
+                </a>
+              </article>
+
+              <article class="reviews__article" aria-label="Рецензия">
+                <img
+                  src="./images/reviews/spb-sobaka-ru.png"
+                  alt="Собака.ру"
+                  class="reviews__article-title"
+                />
+
+                <p class="reviews__article-text">
+                  «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                  Техасе, где мать главного героя с группой добровольцев готовит кукольное
+                  представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с
+                  сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает
+                  контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+                  его и всех вокруг.
+                </p>
+
+                <a href="https://www.sobaka.ru/" class="button-small reviews__button">
+                  Читать полностью
+                </a>
+              </article>
+            </div>
+          </div>
         </section>
 
         <section class="feedback">
           <div class="feedback__header">
             <h2 class="section-title feedback__section-title">Отзывы зрителей</h2>
 
-            <ul class="slider-dots">
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-              <li class="slider-dots__button"></li>
-            </ul>
+            <ul class="feedback__slider-dots slider-dots"></ul>
 
             <ul class="slider-buttons">
               <li>
-                <button class="slider-buttons__prev">
+                <button class="slider-button slider-button__prev feedback__button-prev">
                   <img
                     src="./images/arrows/arrow-left.svg"
                     alt="Предыдущий отзыв"
@@ -182,7 +245,7 @@
                 </button>
               </li>
               <li>
-                <button class="slider-buttons__next">
+                <button class="slider-button slider-button__next feedback__button-next">
                   <img
                     src="./images/arrows/arrow-right.svg"
                     alt="Следующий отзыв"
@@ -193,14 +256,34 @@
             </ul>
           </div>
 
-          <article class="feedback__article" aria-label="Отзыв зрителя">
-            <p class="feedback__article-text">
-              Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
-              возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
-              мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
-            </p>
-            <p class="feedback__article-author">Наталья Зайцева</p>
-          </article>
+          <div class="feedback__slider">
+            <div class="feedback__wrapper">
+              <article class="feedback__article" aria-label="Отзыв зрителя">
+                <p class="feedback__article-text">
+                  Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
+                  возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
+                  мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+                </p>
+                <p class="feedback__article-author">Наталья Зайцева</p>
+              </article>
+
+              <article class="feedback__article" aria-label="Отзыв зрителя">
+                <p class="feedback__article-text">
+                  Для самой этой истории формат читки работает отличным ироническим отстранением
+                </p>
+                <p class="feedback__article-author">Дина Годер</p>
+              </article>
+
+              <article class="feedback__article" aria-label="Отзыв зрителя">
+                <p class="feedback__article-text">
+                  Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на
+                  нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это
+                  было приятно, ведь я как будто сама поучаствовала в спектакле
+                </p>
+                <p class="feedback__article-author">Дарья Морозова</p>
+              </article>
+            </div>
+          </div>
         </section>
 
         <section class="share"></section>
@@ -208,5 +291,8 @@
 
       <footer class="footer"></footer>
     </div>
+
+    <script src="./script/swiper-bundle.min.js"></script>
+    <script src="./script/slider.js"></script>
   </body>
 </html>

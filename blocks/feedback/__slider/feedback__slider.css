@@ -1,0 +1,7 @@
+.feedback__slider {
+  max-width: 1320px;
+  width: 100%;
+  height: auto;
+
+  overflow: hidden;
+}

@@ -1,18 +1,4 @@
-.slider-buttons__prev {
-  width: 50px;
-  height: 50px;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
-}
-
-.slider-buttons__prev::before {
+.slider-button__prev::before {
   content: '';
   position: absolute;
 
@@ -29,7 +15,7 @@
   border-top-right-radius: 0;
 }
 
-.slider-buttons__prev::after {
+.slider-button__prev::after {
   content: '';
   position: absolute;
 
@@ -49,7 +35,7 @@
   visibility: hidden;
 }
 
-.slider-buttons__prev:hover {
+.slider-button__prev:hover {
   cursor: pointer;
   border-radius: 50px;
   background-color: #242424;
@@ -57,18 +43,18 @@
   transition: background-color 0.2s 0.2s;
 }
 
-.slider-buttons__prev:hover .button__icon {
+.slider-button__prev:hover .button__icon {
   filter: brightness(1000%);
   transition: filter 0.5s;
 }
 
-.slider-buttons__prev:hover::after {
+.slider-button__prev:hover::after {
   visibility: visible;
   transform: rotate(-180deg);
   transition: all 0.2s;
 }
 
-.slider-buttons__prev:active {
+.slider-button__prev:active {
   outline: 3px solid #242424;
   transition: outline 0.1s;
 }

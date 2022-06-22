@@ -6,6 +6,13 @@
 
 @media screen and (min-width: 768px) {
   .feedback {
+    padding: 0 0 64px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .feedback {
     padding: 0 60px 64px;
     box-sizing: border-box;
   }
