@@ -1,0 +1,13 @@
+.reviews {
+  padding: 0 0 76px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding: 0 0 111px;
+  }
+}
