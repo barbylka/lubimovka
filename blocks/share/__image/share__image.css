@@ -1,19 +1,20 @@
 .share__image {
-    margin-bottom: 25px;
-    padding-bottom: 61%;
-    background-image: url(../../../images/share/share-photo-bw.png);
-    background-size: 140%;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+  padding-bottom: 61%;
+  background-image: url(../../../images/share/share-photo-bw.png);
+  background-size: 140%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
-    .share__image {
-        max-width: 1320px;
-        margin: 0 auto 57px;
-        padding-bottom: 28.1%;
-        background-size: 100%;
-        box-shadow: none;
-    }
+  .share__image {
+    max-width: 1320px;
+    margin: 0 auto 57px;
+    padding-bottom: 28.1%;
+    background-size: 100%;
+    box-shadow: none;
+  }
 }

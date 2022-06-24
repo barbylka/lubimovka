@@ -1,0 +1,7 @@
+.share__link-item {
+  margin-right: 8px;
+}
+
+.share__link-item:last-of-type {
+  margin-right: 0;
+}

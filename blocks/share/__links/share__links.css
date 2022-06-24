@@ -1,12 +1,14 @@
 .share__links {
-    width: max-content;
-    margin-left: 26px;    
+  display: flex;
+  list-style-type: none;
+  margin: 7px 0 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .share__links {
-        position: relative;
-        top: -60px;
-        left: 40.5%;
-    }
+  .share__links {
+    position: absolute;
+    top: -25px;
+    left: 40.5%;
+  }
 }
