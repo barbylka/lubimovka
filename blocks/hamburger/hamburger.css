@@ -1,6 +1,7 @@
 .hamburger {
   width: 72px;
   height: 72px;
+  /* position: relative; */
   position: -webkit-sticky;
   position: sticky;
   margin-left: calc(100vw - 72px);
@@ -8,7 +9,6 @@
   cursor: pointer;
   background-color: black;
   z-index: 101;
-  /* border: none; */
 }
 
 .hamburger.opened .hamburger__bar {

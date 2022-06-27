@@ -25,12 +25,13 @@
 @media screen and (min-width: 768px) {
   .topnav__menu {
     padding: 0 0 0 30px;
-    height: 61px;
+    height: 100%;
     width: 100vw;
     position: relative;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
     overflow-y: hidden;
   }
 

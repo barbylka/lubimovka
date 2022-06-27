@@ -3,14 +3,16 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     margin: 0 0 95px;
-    padding-top: 15px;
-    height: 61px;
+    padding-top: 11px;
+    height: 62px;
+    align-items: start;
     border-bottom: 1px solid #242424;
+    box-sizing: border-box;
   }
 }

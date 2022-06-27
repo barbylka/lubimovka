@@ -24,13 +24,16 @@
 
 @media screen and (min-width: 768px) {
   .topnav__socials {
-    padding: 0 25px;
+    padding: 10px 26px 22px 24px;
     width: 100%;
+    height: min-content;
     min-width: max-content;
     max-width: calc(257px - 50px);
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-left: 1px solid #242424;
+    /* align-items: start; */
+
     order: 3;
   }
 

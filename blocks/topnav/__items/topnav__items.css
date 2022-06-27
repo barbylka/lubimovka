@@ -6,13 +6,16 @@
 
 @media screen and (min-width: 768px) {
   .topnav__items {
-    padding: 0 39px 0 33px;
+    padding: 9px 39px 19px 33px;
     width: 100%;
+    height: 100%;
     min-width: max-content;
     max-width: calc(944px - 72px);
     display: flex;
     justify-content: space-between;
     order: 2;
+    border-right: 1px solid #242424;
+    box-sizing: border-box; 
   }
 
   .topnav__items li:first-of-type,

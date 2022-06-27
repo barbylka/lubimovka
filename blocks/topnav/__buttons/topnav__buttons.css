@@ -16,17 +16,15 @@
 
 @media screen and (min-width: 768px) {
   .topnav__buttons {
-    padding: 0;
+    padding: 7px 20px 18px 17px;
     min-width: max-content;
     max-width: calc(164px - 37px);
     border-left: 1px solid #242424;
     order: 4;
   }
 
-  .topnav__buttons li:last-of-type .topnav__button-link {
-    padding: 18px 20px 18px 17px;
-    border-top: none;
-    border-bottom: none;
+  .topnav__buttons li:first-of-type .topnav__button-link {
+    display: none;
   }
 
   /* TODO: animation plus.svg */
