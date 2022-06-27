@@ -56,29 +56,41 @@
 
 /* slider-buttons */
 @import url(../blocks/slider-buttons/slider-buttons.css);
-@import url(../blocks/slider-buttons/__prev/slider-buttons__prev.css);
-@import url(../blocks/slider-buttons/__next/slider-buttons__next.css);
-@import url(../blocks/slider-buttons/_disable/slider-buttons_disable.css);
+
+/* slider-button */
+@import url(../blocks/slider-button/slider-button.css);
+@import url(../blocks/slider-button/__prev/slider-button__prev.css);
+@import url(../blocks/slider-button/__next/slider-button__next.css);
 
 /* slider-dots */
 @import url(../blocks/slider-dots/slider-dots.css);
 @import url(../blocks/slider-dots/__button/slider-dots__button.css);
 @import url(../blocks/slider-dots/__button/_active/slider-dots__button_active.css);
 
+/* slider-reviews */
+@import url(../blocks/reviews/__slider/reviews__slider.css);
+@import url(../blocks/reviews/__wrapper/reviews__wrapper.css);
+
 /* reviews */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__header/reviews__header.css);
 @import url(../blocks/reviews/__section-title/reviews__section-title.css);
 @import url(../blocks/reviews/__article/reviews__article.css);
+@import url(../blocks/reviews/__article/_active/reviews__article_active.css);
 @import url(../blocks/reviews/__article-title/reviews__article-title.css);
 @import url(../blocks/reviews/__article-text/reviews__article-text.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
+
+/* slider-feedback */
+@import url(../blocks/feedback/__slider/feedback__slider.css);
+@import url(../blocks/feedback/__wrapper/feedback__wrapper.css);
 
 /* feedback */
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__header/feedback__header.css);
 @import url(../blocks/feedback/__section-title/feedback__section-title.css);
 @import url(../blocks/feedback/__article/feedback__article.css);
+@import url(../blocks/feedback/__article/_active/feedback__article_active.css);
 @import url(../blocks/feedback/__article-text/feedback__article-text.css);
 @import url(../blocks/feedback/__article-author/feedback__article-author.css);
 

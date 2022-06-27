@@ -1,5 +1,6 @@
 .feedback__article {
   max-width: 718px;
+  width: 100%;
   min-height: 361px;
   background-color: #fff;
 
@@ -10,11 +11,21 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  flex-shrink: 0;
 }
 
 @media screen and (min-width: 768px) {
   .feedback__article {
     max-width: 415px;
     padding: 33px 30px 24px;
+
+    opacity: 0.4;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .feedback__article {
+    opacity: 1;
   }
 }
