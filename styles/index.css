@@ -62,7 +62,6 @@
 @import url(../blocks/slider-button/slider-button.css);
 @import url(../blocks/slider-button/__prev/slider-button__prev.css);
 @import url(../blocks/slider-button/__next/slider-button__next.css);
-@import url(../blocks/slider-button/_disable/slider-button_disable.css);
 
 /* slider-dots */
 @import url(../blocks/slider-dots/slider-dots.css);
