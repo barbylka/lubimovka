@@ -1,0 +1,24 @@
+.topnav__button-icon {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .topnav__button-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+  }
+
+  .topnav__button-icon:hover {
+    background-color: transparent;
+    color: grey;
+  }
+
+  .topnav__button-icon:active {
+    outline: none;
+  }
+
+  .topnav__button-icon:hover {
+    filter: grayscale(100%);
+  }
+}

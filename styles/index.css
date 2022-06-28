@@ -24,6 +24,7 @@
 @import url(../blocks/topnav/__item-link/topnav__item-link.css);
 @import url(../blocks/topnav/__buttons/topnav__buttons.css);
 @import url(../blocks/topnav/__button/topnav__button.css);
+@import url(../blocks/topnav/__button-icon/topnav__button-icon.css);
 @import url(../blocks/topnav/__socials/topnav__socials.css);
 @import url(../blocks/topnav/__social/topnav__social.css);
 @import url(../blocks/topnav/__button-link/topnav__button-link.css);

@@ -26,11 +26,4 @@
   .topnav__buttons li:first-of-type .topnav__button-link {
     display: none;
   }
-
-  /* TODO: animation plus.svg */
-  .topnav__buttons li:last-of-type .topnav__button-link::before {
-    content: url("../../../images/header/plus.svg");
-    width: 25px;
-    height: 25px;
-  }
 }

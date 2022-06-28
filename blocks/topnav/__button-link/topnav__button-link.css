@@ -19,13 +19,20 @@
     line-height: 1.21;
   }
 
-  /* Temporary solution */
+  /* TODO: animation plus.svg */
+  .topnav__button-link::before {
+    /* content: url("../../../images/header/plus.svg"); */
+    /* width: 25px; */
+    /* height: 25px; */
+
+    background-color: transparent;
+    color: grey;
+  }
   .topnav__button-link:hover {
     background-color: transparent;
     color: grey;
   }
 
-  /* Temporary solution */
   .topnav__button-link:active {
     outline: none;
   }
