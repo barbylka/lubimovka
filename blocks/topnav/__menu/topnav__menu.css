@@ -15,14 +15,14 @@
 
 .topnav__menu.opened {
   display: flex;
-
+}
+@media screen and (max-width: 1280px) {
+  .topnav__menu.opened::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-.topnav__menu.opened::-webkit-scrollbar {
-  display: none; 
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .topnav__menu {
     padding: 0 0 0 30px;
     height: 100%;
@@ -33,6 +33,7 @@
     justify-content: space-between;
     align-items: start;
     overflow-y: hidden;
+    border-bottom: 1px solid #242424;
   }
 
   .topnav__menu .button__icon {

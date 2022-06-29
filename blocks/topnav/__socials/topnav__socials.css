@@ -22,7 +22,7 @@
   border-top: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .topnav__socials {
     padding: 10px 26px 22px 24px;
     width: 100%;

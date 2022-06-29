@@ -9,7 +9,7 @@
   transition: 0.2s;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .topnav__button-link {
     padding: 0;
     height: min-content;
@@ -19,18 +19,9 @@
     line-height: 1.21;
   }
 
-  /* TODO: animation plus.svg */
-  .topnav__button-link::before {
-    /* content: url("../../../images/header/plus.svg"); */
-    /* width: 25px; */
-    /* height: 25px; */
-
-    background-color: transparent;
-    color: grey;
-  }
   .topnav__button-link:hover {
     background-color: transparent;
-    color: grey;
+    color: #242424;
   }
 
   .topnav__button-link:active {

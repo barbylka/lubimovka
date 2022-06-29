@@ -1,7 +1,6 @@
 .hamburger {
   width: 72px;
   height: 72px;
-  /* position: relative; */
   position: -webkit-sticky;
   position: sticky;
   margin-left: calc(100vw - 72px);
@@ -11,11 +10,22 @@
   z-index: 101;
 }
 
+.hamburger.opened {
+  margin-left: calc(100vw - 72px);
+}
+
 .hamburger.opened .hamburger__bar {
   transform: rotate(-180deg);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    margin-left: calc(100vw - 72px - 17px);
+    bottom: calc(100vh - 82px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .hamburger {
     display: none;
   }
