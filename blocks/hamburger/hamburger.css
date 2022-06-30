@@ -10,18 +10,14 @@
   z-index: 101;
 }
 
-.hamburger.opened {
-  margin-left: calc(100vw - 72px);
-}
-
 .hamburger.opened .hamburger__bar {
   transform: rotate(-180deg);
 }
 
 @media screen and (min-width: 1024px) {
   .hamburger {
-    margin-left: calc(100vw - 72px - 17px);
-    bottom: calc(100vh - 82px);
+    margin-left: calc(100vw - 72px - 19px);
+    bottom: calc(100vh - 72px);
   }
 }
 

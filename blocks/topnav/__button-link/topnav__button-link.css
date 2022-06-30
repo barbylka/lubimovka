@@ -1,8 +1,6 @@
 .topnav__button-link {
   width: 100%;
   border-right: none;
-  display: flex;
-  justify-content: space-between;
   color: #242424;
   text-decoration: none;
   box-sizing: border-box;
@@ -13,7 +11,6 @@
   .topnav__button-link {
     padding: 0;
     height: min-content;
-    align-items: center;
     border: none;
     font-size: 14px;
     line-height: 1.21;
@@ -21,10 +18,14 @@
 
   .topnav__button-link:hover {
     background-color: transparent;
-    color: #242424;
+    color: gray;
   }
 
   .topnav__button-link:active {
     outline: none;
+  }
+
+  .topnav__button-link:hover .topnav__button-icon {
+    filter: invert(50%);
   }
 }

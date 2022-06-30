@@ -1,9 +1,7 @@
 .topnav__buttons {
   margin: 0;
   padding: 69.5px 0 0 54px;
-  width: 50vw;
-  min-width: 361px;
-  max-width: 383.6px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-self: end;

@@ -7,5 +7,6 @@
     width: 25px;
     height: 25px;
     display: flex;
+    transition: 0.2s;
   }
 }

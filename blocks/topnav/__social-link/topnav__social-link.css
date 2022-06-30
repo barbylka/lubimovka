@@ -15,16 +15,13 @@
     border: none;
     font-size: 16px;
     line-height: 1.12;
-    align-items: start;
   }
 
-  /* Temporary solution */
   .topnav__social-link:hover {
     background-color: transparent;
-    color: grey;
+    color: gray;
   }
 
-  /* Temporary solution */
   .topnav__social-link:active {
     outline: none;
   }

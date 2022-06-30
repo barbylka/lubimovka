@@ -3,8 +3,8 @@
   padding: 9px 0 9px 10px;
   width: 115px;
   height: 32px;
-  border-left: none;
   border-top: none;
+  border-left: none;
   line-height: 0.87;
   text-decoration: none;
   box-sizing: border-box;
@@ -14,10 +14,5 @@
   .header__button {
     margin: 0;
     width: 120px;
-
-    /* Temporary solution */
-    /* position: absolute;
-    top: 94px;
-    left: 30px; */
   }
 }

@@ -18,7 +18,7 @@
   border-right: none;
 }
 
-.topnav__socials li:not(:first-child) .topnav__social-link{
+.topnav__socials li:not(:first-child) .topnav__social-link {
   border-top: none;
 }
 
@@ -26,11 +26,8 @@
   .topnav__socials {
     padding: 10px 26px 22px 24px;
     width: 100%;
-    height: min-content;
-    min-width: max-content;
     max-width: calc(257px - 50px);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     order: 3;
   }
