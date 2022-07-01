@@ -12,19 +12,3 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-@media screen and (max-width: 1024px) {
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  body {
-    overflow-y:auto;
-  }
-}
