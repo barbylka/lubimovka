@@ -3,7 +3,7 @@
   height: 72px;
   position: -webkit-sticky;
   position: sticky;
-  margin-left: calc(100vw - 72px);
+  margin-left: calc(100vw - 72px - 21px);
   bottom: 128px;
   cursor: pointer;
   background-color: black;

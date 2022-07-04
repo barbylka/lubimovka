@@ -1,0 +1,8 @@
+.footer__nav-links-third-grid{
+  display: grid;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: 243px;
+  grid-column: 1;
+  margin: 53px 0 85px;
+}

@@ -1,0 +1,4 @@
+.footer__container {
+  display: grid;
+  grid-template-columns: 157px 1fr;
+}
