@@ -94,5 +94,13 @@
 @import url(../blocks/feedback/__article-text/feedback__article-text.css);
 @import url(../blocks/feedback/__article-author/feedback__article-author.css);
 
+/* share */
+@import url(../blocks/share/share.css);
+@import url(../blocks/share/__caption/share__caption.css);
+@import url(../blocks/share/__image/share__image.css);
+@import url(../blocks/share/__link/share__link.css);
+@import url(../blocks/share/__links/share__links.css);
+@import url(../blocks/share/__title/share__title.css);
+
 /*footer */
 @import url(../blocks/footer/footer.css);

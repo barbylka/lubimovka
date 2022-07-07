@@ -1,0 +1,12 @@
+.share__title {
+  max-width: 250px;  
+  font-size: 40px;
+  line-height: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .share__title {
+    max-width: initial;
+    margin-left: 25.2%;
+  }
+}

@@ -1,0 +1,9 @@
+.share {
+  padding-bottom: 156px;
+}
+
+@media screen and (min-width: 768px) {
+  .share {
+    padding-bottom: 181px;
+  }
+}
