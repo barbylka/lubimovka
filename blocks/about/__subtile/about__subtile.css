@@ -4,12 +4,13 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -1px;
-  margin: 0 16px auto;
+  margin: 0 0 auto;
+  padding: 0 16px 20px;
 }
 
 @media screen and (min-width: 769px) {
   .about__subtile {
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
