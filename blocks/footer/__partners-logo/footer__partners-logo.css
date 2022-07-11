@@ -1,9 +1,0 @@
-.footer__partners-logo {
-  max-height: 34px;
-  padding-right: 15px;
-  transition: opacity 0.2s ease;
-}
-
-.footer__partners-logo:last-child {
-  padding-right: 0;
-}

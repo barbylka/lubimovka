@@ -27,5 +27,11 @@ function closeMenu() {
   stopPageScroll(navMenuOpened);
 }
 
+function allowScroll() {
+  if (window.innerWidth >= 1280 && navMenuOpened) closeMenu();
+}
+
+window.onresize = allowScroll;
+
 hamburgerButton.addEventListener("click", toggleNavMenu);
 navLink.forEach((link) => link.addEventListener("click", closeMenu));
