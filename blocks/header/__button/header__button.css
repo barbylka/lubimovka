@@ -1,8 +1,9 @@
 .header__button {
   margin: 0 0 58px 19px;
   padding: 9px 0 9px 10px;
-  width: 115px;
   height: 32px;
+  min-width: 115px;
+  max-width: max-content;
   border-top: none;
   border-left: none;
   line-height: 0.87;
@@ -13,6 +14,7 @@
 @media screen and (min-width: 1280px) {
   .header__button {
     margin: 0;
-    width: 120px;
+    min-width: 120px;
+    max-width: max-content;
   }
 }

@@ -1,4 +1,6 @@
 .hamburger {
+  padding: 0;
+  border: none;
   width: 72px;
   height: 72px;
   position: -webkit-sticky;
@@ -6,12 +8,26 @@
   margin-left: calc(100vw - 72px - 21px);
   bottom: 128px;
   cursor: pointer;
-  background-color: black;
+  background-color: #242424;
   z-index: 101;
 }
 
-.hamburger.opened .hamburger__bar {
-  transform: rotate(-180deg);
+.hamburger.opened .hamburger__bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.opened .hamburger__bar:nth-child(1) {
+  -webkit-transform: translateY(6px) rotate(45deg);
+  -ms-transform: translateY(6px) rotate(45deg);
+  -o-transform: translateY(6px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
+}
+
+.hamburger.opened .hamburger__bar:nth-child(3) {
+  -webkit-transform: translateY(-6px) rotate(-45deg);
+  -ms-transform: translateY(-6px) rotate(-45deg);
+  -o-transform: translateY(-6px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 @media screen and (min-width: 1024px) {
