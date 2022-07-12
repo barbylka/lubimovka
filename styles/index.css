@@ -11,6 +11,9 @@
 /* button-small */
 @import url(../blocks/button-small/button-small.css);
 
+/* button-animation */
+@import url(../blocks/button-animation/button-animation.css);
+
 /* section-title */
 @import url(../blocks/section-title/section-title.css);
 
