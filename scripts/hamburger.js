@@ -5,13 +5,16 @@ const navLink = document.querySelectorAll(".topnav__item-link");
 let navMenuOpened = false;
 
 function stopPageScroll() {
+  console.log("here");
   navMenuOpened = !navMenuOpened;
-  if (navMenuOpened) {
+  if (navMenuOpened && window.innerWidth < 1280) {
     body.style.overflowY = "hidden";
     navMenuOpened = true;
+    return false;
   } else {
     navMenuOpened = false;
     body.style.overflowY = "scroll";
+    return false;
   }
 }
 
