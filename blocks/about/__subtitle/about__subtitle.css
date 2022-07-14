@@ -1,15 +1,16 @@
-.about__autor {
+.about__subtitle {
   font-family: 'NeueMachina', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -1px;
-  margin: 24px 0 8px;
+  margin: 0 0 auto;
+  padding: 0 16px 20px;
 }
 
 @media screen and (min-width: 769px) {
-  .about__autor {
-    margin: 17px 0 4px;
-    max-width: min-content;
+  .about__subtitle {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
