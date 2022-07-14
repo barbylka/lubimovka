@@ -1,4 +1,4 @@
-.about__autor {
+.about__author {
   font-family: 'NeueMachina', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width: 769px) {
-  .about__autor {
+  .about__author {
     margin: 17px 0 4px;
     max-width: min-content;
   }

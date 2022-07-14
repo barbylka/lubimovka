@@ -1,4 +1,4 @@
-.about__subtile {
+.about__subtitle {
   font-family: 'NeueMachina', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 769px) {
-  .about__subtile {
+  .about__subtitle {
     padding-left: 24px;
     padding-right: 24px;
   }
