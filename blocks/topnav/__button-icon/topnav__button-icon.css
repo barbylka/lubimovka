@@ -1,0 +1,13 @@
+.topnav__button-icon {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__button-icon {
+    padding-bottom: 1px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    transition: 0.2s;
+  }
+}

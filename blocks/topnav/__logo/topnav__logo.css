@@ -1,0 +1,13 @@
+.topnav__logo {
+  width: 43px;
+  height: 34px;
+  margin: 2px auto 18.5px 58px;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__logo {
+    margin: 0;
+    padding-top: 4px;
+    order: 1;
+  }
+}

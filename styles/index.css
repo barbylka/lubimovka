@@ -11,6 +11,29 @@
 /* button-small */
 @import url(../blocks/button-small/button-small.css);
 
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/* topnav */
+@import url(../blocks/topnav/topnav.css);
+@import url(../blocks/topnav/__logo/topnav__logo.css);
+@import url(../blocks/topnav/__menu/topnav__menu.css);
+@import url(../blocks/topnav/__items/topnav__items.css);
+@import url(../blocks/topnav/__item-link/topnav__item-link.css);
+@import url(../blocks/topnav/__buttons/topnav__buttons.css);
+@import url(../blocks/topnav/__socials/topnav__socials.css);
+@import url(../blocks/topnav/__social/topnav__social.css);
+@import url(../blocks/topnav/__social-link/topnav__social-link.css);
+@import url(../blocks/topnav/__button-link/topnav__button-link.css);
+@import url(../blocks/topnav/__button-icon/topnav__button-icon.css);
+
+/* burger */
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/__bar/hamburger__bar.css);
+
 /* section-title */
 @import url(../blocks/section-title/section-title.css);
 
@@ -101,6 +124,3 @@
 @import url(../blocks/share/__link/share__link.css);
 @import url(../blocks/share/__links/share__links.css);
 @import url(../blocks/share/__title/share__title.css);
-
-/*footer */
-@import url(../blocks/footer/footer.css);

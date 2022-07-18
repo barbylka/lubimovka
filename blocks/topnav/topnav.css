@@ -1,0 +1,9 @@
+.topnav {
+  display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav {
+    max-width: 100%;
+  }
+}

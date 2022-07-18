@@ -1,0 +1,32 @@
+.topnav__button-link {
+  width: 100%;
+  border-right: none;
+  color: #242424;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__button-link {
+    padding: 0;
+    height: min-content;
+    min-width: 0;
+    border: none;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .topnav__button-link:hover {
+    background-color: transparent;
+    color: gray;
+  }
+
+  .topnav__button-link:active {
+    outline: none;
+  }
+
+  .topnav__button-link:hover .topnav__button-icon {
+    filter: invert(50%);
+  }
+}

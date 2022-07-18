@@ -1,0 +1,25 @@
+.topnav__items {
+  margin: 0;
+  padding-left: 58px;
+  list-style: none;
+}
+
+.topnav__items li {
+  max-width: max-content;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__items {
+    padding: 9px 39px 19px 33px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    order: 2;
+    border-right: 1px solid #242424;
+  }
+
+  .topnav__items li:first-of-type,
+  .topnav__items li:last-of-type {
+    display: none;
+  }
+}

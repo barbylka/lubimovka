@@ -1,0 +1,28 @@
+.topnav__buttons {
+  margin: 0;
+  padding: 69.5px 0 0 54px;
+  width: 100%;
+  max-width: 361px;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  list-style: none;
+}
+
+.topnav__buttons li:last-of-type .topnav__button-link {
+  border-top: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__buttons {
+    padding: 7px 20px 18px 17px;
+    min-width: max-content;
+    max-width: calc(164px - 37px);
+    border-left: 1px solid #242424;
+    order: 4;
+  }
+
+  .topnav__buttons li:first-of-type .topnav__button-link {
+    display: none;
+  }
+}

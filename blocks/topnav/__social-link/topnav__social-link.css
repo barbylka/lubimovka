@@ -1,0 +1,29 @@
+.topnav__social-link {
+  color: #242424;
+  text-decoration: none;
+  width: 100%;
+  text-transform: lowercase;
+  border-left: none;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  .topnav__social-link {
+    padding: 0;
+    height: 100%;
+    min-width: 0;
+    border: none;
+    font-size: 16px;
+    line-height: 1.12;
+  }
+
+  .topnav__social-link:hover {
+    background-color: transparent;
+    color: gray;
+  }
+
+  .topnav__social-link:active {
+    outline: none;
+  }
+}
