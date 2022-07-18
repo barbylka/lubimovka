@@ -1,0 +1,15 @@
+.share__links {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  margin: 7px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .share__links {
+    position: absolute;
+    top: -25px;
+    left: 40.5%;
+  }
+}

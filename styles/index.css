@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
@@ -24,6 +25,7 @@
 @import url(../blocks/topnav/__item-link/topnav__item-link.css);
 @import url(../blocks/topnav/__buttons/topnav__buttons.css);
 @import url(../blocks/topnav/__socials/topnav__socials.css);
+@import url(../blocks/topnav/__social/topnav__social.css);
 @import url(../blocks/topnav/__social-link/topnav__social-link.css);
 @import url(../blocks/topnav/__button-link/topnav__button-link.css);
 @import url(../blocks/topnav/__button-icon/topnav__button-icon.css);
@@ -63,9 +65,9 @@
 @import url(../blocks/about/__paragrap/about__paragraph.css);
 @import url(../blocks/about/__piece/about__piece.css);
 @import url(../blocks/about/__thumb/about__thumb.css);
-@import url(../blocks/about/__subtile/about__subtile.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__button/about__button.css);
-@import url(../blocks/about/__autor/about__autor.css);
+@import url(../blocks/about/__author/about__author.css);
 @import url(../blocks/about/__caption/about__caption.css);
 
 /* photos */
@@ -77,38 +79,51 @@
 
 /* slider-buttons */
 @import url(../blocks/slider-buttons/slider-buttons.css);
-@import url(../blocks/slider-buttons/__prev/slider-buttons__prev.css);
-@import url(../blocks/slider-buttons/__next/slider-buttons__next.css);
-@import url(../blocks/slider-buttons/_disable/slider-buttons_disable.css);
+
+/* slider-button */
+@import url(../blocks/slider-button/slider-button.css);
+@import url(../blocks/slider-button/__prev/slider-button__prev.css);
+@import url(../blocks/slider-button/__next/slider-button__next.css);
 
 /* slider-dots */
 @import url(../blocks/slider-dots/slider-dots.css);
 @import url(../blocks/slider-dots/__button/slider-dots__button.css);
 @import url(../blocks/slider-dots/__button/_active/slider-dots__button_active.css);
 
+/* slider-reviews */
+@import url(../blocks/reviews/__slider/reviews__slider.css);
+@import url(../blocks/reviews/__wrapper/reviews__wrapper.css);
+
 /* reviews */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__header/reviews__header.css);
 @import url(../blocks/reviews/__section-title/reviews__section-title.css);
 @import url(../blocks/reviews/__article/reviews__article.css);
+@import url(../blocks/reviews/__article/_active/reviews__article_active.css);
 @import url(../blocks/reviews/__article-title/reviews__article-title.css);
 @import url(../blocks/reviews/__article-text/reviews__article-text.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
+
+/* slider-feedback */
+@import url(../blocks/feedback/__slider/feedback__slider.css);
+@import url(../blocks/feedback/__wrapper/feedback__wrapper.css);
 
 /* feedback */
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__header/feedback__header.css);
 @import url(../blocks/feedback/__section-title/feedback__section-title.css);
 @import url(../blocks/feedback/__article/feedback__article.css);
-
+@import url(../blocks/feedback/__article/_active/feedback__article_active.css);
 @import url(../blocks/feedback/__article-text/feedback__article-text.css);
 @import url(../blocks/feedback/__article-author/feedback__article-author.css);
 
-@import url(../blocks/feedback/__article-text/feedback__article-text.css);
-@import url(../blocks/feedback/__article-author/feedback__article-author.css);
-
-@import url(../blocks/feedback/__text/feedback__text.css);
-@import url(../blocks/feedback/__author/feedback__author.css);
+/* share */
+@import url(../blocks/share/share.css);
+@import url(../blocks/share/__caption/share__caption.css);
+@import url(../blocks/share/__image/share__image.css);
+@import url(../blocks/share/__link/share__link.css);
+@import url(../blocks/share/__links/share__links.css);
+@import url(../blocks/share/__title/share__title.css);
 
 /*footer */
 @import url(../blocks/footer/footer.css);

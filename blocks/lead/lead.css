@@ -2,8 +2,8 @@
   display: grid;
 }
 
-@media screen and (min-width: 1440px) {
-  .lead {
-    grid-template-columns: 1fr 720px;
+@media screen and (min-width: 769px) {
+  .lead {    
+    grid-template-columns: minmax(390px, 1fr) minmax(375px, 721px);    
   }
 }

@@ -1,5 +1,7 @@
 .lead__button {
+  width: min-content;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 375px) {
@@ -8,8 +10,17 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 769px) {
   .lead__button {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 0 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__button {
+    bottom: 57px;
     margin: 0;
   }
 }

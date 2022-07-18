@@ -1,5 +1,4 @@
 .topnav__social-link {
-  padding: 0 19px 0 15px;
   color: #242424;
   text-decoration: none;
   width: 100%;
@@ -13,6 +12,7 @@
   .topnav__social-link {
     padding: 0;
     height: 100%;
+    min-width: 0;
     border: none;
     font-size: 16px;
     line-height: 1.12;

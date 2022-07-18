@@ -1,6 +1,6 @@
 .reviews__button {
-  width: 210px;
-  height: 32px;
+  min-width: 210px;
+  min-height: 32px;
 
   margin: 32px 0 0 0;
   padding: 8px 0 9px 29px;
@@ -24,7 +24,7 @@
   bottom: 4px;
   left: 0;
 
-  background-image: url(../../../images/reviews/arrow-right-up.png);
+  background-image: url(../../../images/arrows/arrow-right-up.svg);
   background-position: center;
   background-repeat: no-repeat;
 }

@@ -16,8 +16,17 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 769px) {
+  .lead__date {    
+    position: absolute;
+    bottom: 72px;
+    margin: 0 0 0 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .lead__date {
+    bottom: 129px;
     margin-left: 4px;
   }
 }

@@ -27,13 +27,12 @@
     padding: 10px 26px 22px 24px;
     width: 100%;
     max-width: calc(257px - 50px);
-    display: flex;
     justify-content: space-between;
     order: 3;
   }
 
   .topnav__socials li {
-    max-width: max-content;
+    max-width: min-content;
   }
 
   #fb {
