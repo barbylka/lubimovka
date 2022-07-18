@@ -2,6 +2,20 @@
   padding: 0 24px 38px;
 }
 
+@media screen and (min-width: 769px) {
+  .lead__section {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__section {
+    padding-top: 62px;
+    padding-left: 16.7%;
+    padding-right: 35px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .lead__section {
     padding: 62px 0 0 120px;

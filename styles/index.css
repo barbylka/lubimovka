@@ -65,9 +65,9 @@
 @import url(../blocks/about/__paragrap/about__paragraph.css);
 @import url(../blocks/about/__piece/about__piece.css);
 @import url(../blocks/about/__thumb/about__thumb.css);
-@import url(../blocks/about/__subtile/about__subtile.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__button/about__button.css);
-@import url(../blocks/about/__autor/about__autor.css);
+@import url(../blocks/about/__author/about__author.css);
 @import url(../blocks/about/__caption/about__caption.css);
 
 /* photos */

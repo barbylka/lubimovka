@@ -9,11 +9,17 @@
   color: #242424;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 769px) {
   .lead__caption {
     grid-row: 2;
     grid-column: 2;
-    padding: 48px 130px 70px 0;
+    padding: 48px 30px 70px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lead__caption {
+    padding-right: 130px;   
     font-size: 28px;
     line-height: 1.14;
   }

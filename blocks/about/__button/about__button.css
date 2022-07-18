@@ -2,14 +2,6 @@
   border-bottom: none;
   border-left: none;
   border-right: none;
-}
-
-.about__button:first-of-type {
-  margin-top: 16px;
-}
-
-@media screen and (min-width: 769px) {
-  .about__button:first-of-type {
-    margin-top: 24px;
-  }
+  box-sizing: border-box;
+  text-decoration: none;
 }

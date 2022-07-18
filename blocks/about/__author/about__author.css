@@ -1,15 +1,15 @@
-.about__subtile {
+.about__author {
   font-family: 'NeueMachina', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -1px;
-  margin: 0 16px auto;
+  margin: 24px 0 8px;
 }
 
 @media screen and (min-width: 769px) {
-  .about__subtile {
-    margin-left: 24px;
-    margin-right: 24px;
+  .about__author {
+    margin: 17px 0 4px;
+    max-width: min-content;
   }
 }
