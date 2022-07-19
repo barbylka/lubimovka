@@ -1,0 +1,13 @@
+.footer__nav-link {
+  text-decoration: none;
+  font-family: "FormularLight", "sans-serif", "arial";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #242424;
+}
+
+.footer__nav-link:hover {
+  text-decoration: underline;
+}

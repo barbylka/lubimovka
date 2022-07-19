@@ -1,0 +1,8 @@
+.footer__copyrights {
+  display: grid;
+  grid-column: 1;
+  grid-template-columns: 27px 1fr;
+  column-gap: 10px;
+  row-gap: 19px;
+  margin: 55px 0 11px 0;
+}
