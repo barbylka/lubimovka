@@ -33,6 +33,8 @@
 /* burger */
 @import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/hamburger/__bar/hamburger__bar.css);
+/* button-animation */
+@import url(../blocks/button-animation/button-animation.css);
 
 /* section-title */
 @import url(../blocks/section-title/section-title.css);
