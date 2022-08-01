@@ -1,9 +1,8 @@
 .reviews__button {
-  min-width: 210px;
-  min-height: 32px;
-
+  width: 100%;
+  max-width: min-content;
   margin: 32px 0 0 0;
-  padding: 8px 0 9px 29px;
+  padding: 8px 12px 9px 29px;
 
   border-right: none;
   border-top: none;

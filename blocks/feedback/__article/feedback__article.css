@@ -1,7 +1,7 @@
 .feedback__article {
   max-width: 718px;
   width: 100%;
-  min-height: 361px;
+  height: 1px;
   background-color: #fff;
 
   padding: 32px 27px 100px;
@@ -17,7 +17,9 @@
 
 @media screen and (min-width: 768px) {
   .feedback__article {
-    max-width: 415px;
+    max-width: 420px;
+    min-height: 361px;
+    height: 100%;
     padding: 33px 30px 24px;
 
     opacity: 0.4;

@@ -1,0 +1,17 @@
+.footer__partners-logo {
+  /* padding-right: 15px; */
+  transition: opacity 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__partners-logo:nth-child(2n) {
+  justify-self: end;
+}
+
+.footer__partners-logo:first-of-type .footer__text {
+  padding-top: 18px;
+}
+

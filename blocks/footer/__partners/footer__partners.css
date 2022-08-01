@@ -1,0 +1,12 @@
+.footer__partners {
+  position: relative;
+  padding: 0 0 93px 38px;
+  margin: 0;
+  display: grid;
+  column-gap: 41px;
+  grid-template-columns: max-content max-content;
+  grid-column: 1 / span 2;
+  row-gap: 40px;
+  list-style: none;
+  box-sizing: border-box;
+}

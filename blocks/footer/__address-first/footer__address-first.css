@@ -1,0 +1,11 @@
+.footer__address-first {
+  margin: 0;
+  padding: 33px 0 0;
+  grid-column: 1 / span 2;
+  font-family: 'NeueMachina', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #242424;
+}

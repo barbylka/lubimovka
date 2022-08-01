@@ -1,0 +1,21 @@
+.button-animation {
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 201%;
+}
+
+.button-animation:hover {
+  cursor: pointer;
+  color: #fff;
+
+  background-position: left;
+  transition: 0.5s;
+}
+
+.button-animation:hover::before {
+  filter: brightness(1000%);
+}
+
+.button-animation:active {
+  outline: 3px solid #242424;
+  transition: 0.3s;
+}
