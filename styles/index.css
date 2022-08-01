@@ -139,9 +139,11 @@
 @import url(../blocks/footer/__address-second/footer__address-second.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__creators/footer__creators.css);
+@import url(../blocks/footer/__shishki/footer__shishki.css);
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__copyright/_place/footer__copyright_place_side.css);
 @import url(../blocks/footer/__shishki-logo/footer__shishki-logo.css);
 @import url(../blocks/footer/__nav-links-first-grid/footer__nav-links-first-grid.css);
 @import url(../blocks/footer/__nav-links-second-grid/footer__nav-links-second-grid.css);

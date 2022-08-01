@@ -1,16 +1,10 @@
 .footer__copyright {
-  margin: 10px 0 0 0;
-  grid-column: 1/3;
+  margin: 0;
   text-decoration: none;
-  font-family: "FormularLight", "sans-serif", "arial";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.21;
   color: #242424;
   cursor: pointer;
-}
-
-.footer__copyright:hover {
-  text-decoration: underline;
 }

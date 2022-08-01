@@ -3,6 +3,6 @@
   list-style: none;
   padding: 0;
   grid-template-columns: 243px;
-  grid-column: 1;
+  grid-column: 1 / span 2;
   margin: 53px 0 85px;
 }

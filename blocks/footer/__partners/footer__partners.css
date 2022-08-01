@@ -1,23 +1,12 @@
 .footer__partners {
   position: relative;
-  padding: 0 0 84px 0;
+  padding: 0 0 93px 38px;
   margin: 0;
-  max-width: max-content;
   display: grid;
-  justify-items: center;
+  column-gap: 41px;
   grid-template-columns: max-content max-content;
-  grid-template-rows: 83px 83px;
-  grid-column: 1/3;
-  row-gap: 33px;
+  grid-column: 1 / span 2;
+  row-gap: 40px;
   list-style: none;
-}
-
-.footer__partners::after {
-  content: "";
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-bottom: 1px solid #242424;
+  box-sizing: border-box;
 }

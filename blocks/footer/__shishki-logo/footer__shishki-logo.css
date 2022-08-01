@@ -1,4 +1,7 @@
 .footer__shishki-logo {
   margin: 0;
-  padding: 0;
+  padding: 0 9px 0 0;
+  width: 27px;
+  height: 25px;
+  align-self: center;
 }

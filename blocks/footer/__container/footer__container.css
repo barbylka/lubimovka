@@ -1,4 +1,12 @@
 .footer__container {
+  padding: 0 5px;
   display: grid;
-  grid-template-columns: 157px 1fr;
+  grid-template-columns: max-content max-content;
+  column-gap: 48px;
+}
+
+@media screen and (min-width: 414px) {
+  .footer__container {
+    padding: 0 81px 0 55px;
+  }
 }
